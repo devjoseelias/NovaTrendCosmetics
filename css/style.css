@@ -21,6 +21,7 @@
     align-items: center;
     border-radius: 300px;
     border: 3px solid #000;
+    z-index: 3;
 }
 .header-nav-bar{
     width: 100%;
@@ -76,25 +77,26 @@
     overflow: hidden;
     opacity: 0;
     position: absolute;
-    top: 140%;
-    left: 50%;
-    transform: translateX(-50%);
+    top: 110%;
+    left: 0%;
+    transform: translateX(0%);
     background-color: #fff;
     border: 3px solid #000;
-    border-radius: 40px;
-    height: 400px;
-    width: 80%;
+    border-radius: 20px;
+    min-height: 80dvh;
+    width: 0dvw;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-evenly;
+    align-items: start;
     list-style: none;
+    padding: 20px;
     background-color: #fff;
-    transition: max-height 0.4s ease-in, opacity 0.5s ease-in;
+    transition: width 0.4s ease-in, opacity 0.5s ease-in;
     gap: 20px;
 }
 .nav-list.active{
-    max-height: 700px;
+    width: 50dvw;
     opacity: 1;
 }
 .nav-link{
@@ -109,12 +111,20 @@
     color: #555;
 }
 @media screen and (min-width: 900px) {
-    .header-nav-bar{
-        max-height: 20dvh;
+    .header{
+        min-height: 10dvh;
+        max-height: 10dvh;
     }
-    .nav-list{
-        height: 250px;
-        width: 50%;
+    .logo-container{
+        width: 50px;
+        height: 50px;
+    }
+    .nav-list.active{
+        width: 10dvw;
+        opacity: 1;
+    }
+    .nav-list.active:hover{
+        width: 20dvw;
     }
 }
 
@@ -131,7 +141,7 @@
     background-color: #fff;
     min-height: 50dvh;
     width: 100dvw;
-    margin-top: 15dvh;
+    margin-top: 18dvh;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -150,19 +160,49 @@
     object-fit: cover;
 }
 .hero-button{
+    background: transparent;
     height: 60px;
     width: 200px;
     border-radius: 30px;
+    cursor: pointer;
     overflow: hidden;
+    border: 2px solid #000;
+    position: relative;
+    z-index: 1;
+}
+.hero-button::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background: #000;
+    transition: 0.5s;
+    z-index: -1;
+}
+.hero-button:hover::before{
+    width: 100%;
 }
 .skincare-test{
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100%;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
     border-radius: inherit;
     font-family: 'Space Grotesk', sans-serif;
-    font-size: 1.05em;
+    font-size: 1.2em;
     font-weight: bold;
-    background-color: #fff;
+    background: transparent;
+    color: #000;
+    transition: 0.4s;
+}
+.skincare-test:hover{
+    color: #fff;
 }
 
 @media screen and (min-width: 900px) {
