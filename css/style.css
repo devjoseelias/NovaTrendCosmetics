@@ -1,277 +1,247 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .main {
-    min-height: 150dvh;
+  min-height: 150dvh;
+  max-width: 100dvw;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
 }
 
+/*#region HEADER*/
+
 .header {
-    position: fixed;
-    top: 3dvh;
-    left: 50%;
-    transform: translateX(-50%);
-    min-height: 10dvh;
-    max-height: 25dvh;
-    background-color: #fff;
-    width: 95dvw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 300px;
-    border: 3px solid #000;
-    z-index: 3;
+  position: fixed;
+  top: 3dvh;
+  left: 50%;
+  transform: translateX(-50%);
+  min-height: 10dvh;
+  max-height: 25dvh;
+  background-color: #fff;
+  width: 95dvw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 300px;
+  border: 3px solid #000;
+  z-index: 3;
 }
 
 .header-nav-bar {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-    padding: 0 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding: 0 20px;
 }
 
 .logo-container {
-    height: 80px;
-    width: 80px;
-    overflow: hidden;
-    border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  overflow: hidden;
+  border-radius: 50%;
 }
 
 .logo-container img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 .name {
-    font-family: 'Space Grotesk';
-    font-size: 1.5rem;
-    position: absolute;
-    left: 50%;
-    text-align: center;
-    transform: translateX(-50%);
-    margin: 0;
-    user-select: none;
+  font-family: 'Space Grotesk';
+  font-size: 1.5rem;
+  position: absolute;
+  left: 50%;
+  text-align: center;
+  transform: translateX(-50%);
+  margin: 0;
+  user-select: none;
 }
 
 .header-button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 50px;
-    width: 50px;
-    margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  margin: 0;
 }
 
 .header-button:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .header-button i {
-    font-size: 1.5rem;
-    transition: transform 0.3s ease;
+  font-size: 1.5rem;
+  transition: transform 0.3s ease;
 }
 
 .header-button i:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .nav-list {
-    max-height: 0;
-    overflow: hidden;
-    opacity: 0;
-    position: absolute;
-    top: 110%;
-    left: 0%;
-    transform: translateX(0%);
-    background-color: #fff;
-    border: 3px solid #000;
-    border-radius: 20px;
-    min-height: 80dvh;
-    width: 0dvw;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    list-style: none;
-    padding: 20px;
-    background-color: #fff;
-    transition: width 0.4s ease-in, opacity 0.5s ease-in;
-    gap: 20px;
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  position: absolute;
+  top: 110%;
+  left: 0%;
+  transform: translateX(0%);
+  background-color: #fff;
+  border: 3px solid #000;
+  border-radius: 20px;
+  min-height: 80dvh;
+  width: 0dvw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+  padding: 20px;
+  background-color: #fff;
+  transition: width 0.4s ease-in, opacity 0.5s ease-in;
+  gap: 20px;
 }
 
 .nav-list.active {
-    width: 50dvw;
-    opacity: 1;
+  width: 50dvw;
+  opacity: 1;
 }
 
 .nav-link {
-    text-decoration: none;
-    font-family: 'Space Grotesk', sans-serif;
-    color: #000;
-    transition: 0.3s all ease-in-out;
-    text-align: center;
-    white-space: nowrap;
-    gap: 5px;
+  text-decoration: none;
+  font-family: 'Space Grotesk', sans-serif;
+  color: #000;
+  transition: 0.3s all ease-in-out;
+  text-align: left;
+  white-space: nowrap;
+  gap: 5px;
 }
 
 .nav-link:hover {
-    font-size: 1.1rem;
-    color: #555;
+  font-size: 1.1rem;
+  color: #555;
 }
 
-@media screen and (min-width: 900px) {
-    .header {
-        min-height: 10dvh;
-        max-height: 10dvh;
-    }
+/*#endregion*/
 
-    .logo-container {
-        width: 50px;
-        height: 50px;
-    }
-
-    .nav-list {
-        overflow: hidden;
-        opacity: 0;
-        pointer-events: none;
-    }
-
-    .nav-list.active {
-        width: 8dvw;
-        opacity: 1;
-        pointer-events: auto;
-    }
-
-    .nav-list.active:hover {
-        width: 20dvw;
-    }
-
-    .nav-link {
-        white-space: nowrap;
-    }
-
-    .nav-text {
-        opacity: 0;
-        margin-left: 10px;
-        transition: opacity 0.2s ease;
-    }
-
-    .nav-list.active:hover .nav-text {
-        opacity: 1;
-    }
+/*#region TEST*/
+.test {
+  background-color: #fff;
+  min-height: 50dvh;
+  width: 100dvw;
+  margin-top: 18dvh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 30px;
 }
 
-.main {
-    min-height: 150dvh;
-    max-width: 100dvw;
-    background-color: #fff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
+.test-text {
+  background-color: tras;
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Space Grotesk', sans-serif;
 }
 
-.hero {
-    background-color: #fff;
-    min-height: 50dvh;
-    width: 100dvw;
-    margin-top: 18dvh;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    padding-bottom: 30px;
+.question {
+  font-weight: 900;
+  font-size: 3em;
+  white-space: nowrap;
 }
 
-.hero-banner {
-    width: 85%;
-    overflow: hidden;
-    border-radius: 40px;
+.text {
+  margin-top: 10px;
 }
 
-.hero-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.resalt {
+  background-color: #fcfdc0;
 }
 
-.hero-button {
-    background: transparent;
-    height: 60px;
-    width: 200px;
-    border-radius: 30px;
-    cursor: pointer;
-    overflow: hidden;
-    border: 2px solid #000;
-    position: relative;
-    z-index: 1;
+.test-button {
+  background: transparent;
+  height: 60px;
+  width: 200px;
+  border-radius: 30px;
+  cursor: pointer;
+  overflow: hidden;
+  border: 2px solid #000;
+  position: relative;
+  z-index: 1;
 }
 
-.hero-button::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 0;
-    background: #000;
-    transition: 0.5s;
-    z-index: -1;
+.test-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  background: #000;
+  transition: 0.5s;
+  z-index: -1;
 }
 
-.hero-button:hover::before {
-    width: 100%;
+.test-button:hover::before {
+  width: 100%;
 }
 
 .skincare-test {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-    text-align: center;
-    text-decoration: none;
-    position: relative;
-    border-radius: inherit;
-    font-family: 'Space Grotesk', sans-serif;
-    font-size: 1.2em;
-    font-weight: bold;
-    background: transparent;
-    color: #000;
-    transition: 0.4s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  position: relative;
+  border-radius: inherit;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  background: transparent;
+  color: #000;
+  transition: 0.4s;
 }
 
 .skincare-test:hover {
-    color: #fff;
+  color: #fff;
 }
 
-@media screen and (min-width: 900px) {
-    .hero {
-        margin-top: 18dvh;
-        min-height: 20dvh;
-        max-height: 100dvh;
-    }
+/*#endregion*/
 
-    .hero-banner {
-        width: 45%;
-        margin-bottom: 30px;
-    }
-
-    .hero-button {
-        width: 300px;
-    }
-    .logo-container{
-        width: 30px;
-        height: 30px;
-    }
+/*#region HERO*/
+.hero{
+  margin-top: 3dvh;
+  max-width: 100dvw;
+  min-height: 40dvh;
+  overflow: hidden;
 }
+.hero-image img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+/*#endregion*/
+
