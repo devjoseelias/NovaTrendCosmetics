@@ -112,7 +112,7 @@
   list-style: none;
   padding: 20px;
   background-color: #fff;
-  transition: width 0.4s ease-in, opacity 0.5s ease-in;
+  transition: width 0.4s ease-in, opacity 0.2s ease-in;
   gap: 20px;
 }
 
@@ -143,7 +143,7 @@
   background-color: #fff;
   min-height: 50dvh;
   width: 100dvw;
-  margin: 18dvh 15px;
+  margin: 18dvh 15px 0;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -248,7 +248,7 @@
 
 /*#region SCROLL BAR*/
 .scroll-section{
-  max-width: 100dvw;
+  width: 100dvw;
   max-height: max-content;
   background-color: #949FD2;
   display: flex;
@@ -256,6 +256,7 @@
   justify-content: center;
   align-items: center;
   font-family: 'Space Grotesk', sans-serif;
+  padding-top: 2dvh;
 }
 .scroll-section-title{
   max-width: 60%;
@@ -285,6 +286,8 @@
   border-radius: 5px;
 }
 .card{
+  text-decoration: none;
+  color: #000;
   background-color: #fff;
   scroll-snap-align: center;
   width: 180px;
@@ -321,4 +324,37 @@
 .product-name{
   font-size: 1.35em;
 }
+/*#endregion*/
+
+/*#region CATALOG*/
+.catalog{
+  width: 100dvw;
+  height: 40dvh;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Space Grotesk', sans-serif;
+  gap: 20px;
+}
+.catalog-text{
+  text-align: center;
+  font-size: 1.5em;
+}
+.catalog-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #000;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1.5em;
+  width: 35%;
+  height: 15%;
+  border-radius: 30px;
+  background-color: #F8FFC5;
+  border: 2px solid #000;
+}
+
 /*#endregion*/
