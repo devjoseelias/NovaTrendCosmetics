@@ -5,15 +5,15 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 .main {
-  min-height: 150dvh;
+  min-height: 300dvh;
   max-width: 100dvw;
   background-color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
+  overflow-x: hidden;
 }
 
 /*#region HEADER*/
@@ -143,7 +143,7 @@
   background-color: #fff;
   min-height: 50dvh;
   width: 100dvw;
-  margin-top: 18dvh;
+  margin: 18dvh 15px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -233,8 +233,9 @@
 /*#region HERO*/
 .hero{
   margin-top: 3dvh;
+  margin-bottom: 3dvh;
   max-width: 100dvw;
-  min-height: 40dvh;
+  height: auto;
   overflow: hidden;
 }
 .hero-image img{
@@ -245,3 +246,79 @@
 }
 /*#endregion*/
 
+/*#region SCROLL BAR*/
+.scroll-section{
+  max-width: 100dvw;
+  max-height: max-content;
+  background-color: #949FD2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Space Grotesk', sans-serif;
+}
+.scroll-section-title{
+  max-width: 60%;
+  white-space: wrap;
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+.wrapper{
+  width: 100%;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 60px;
+  padding: 0 60px;
+}
+.wrapper::-webkit-scrollbar{
+  height: 5px;
+}
+.wrapper::-webkit-scrollbar-track{
+  background: #ffffff;
+}
+.wrapper::-webkit-scrollbar-thumb{
+  background: #000;
+  border-radius: 5px;
+}
+.card{
+  background-color: #fff;
+  scroll-snap-align: center;
+  width: 180px;
+  height: 403px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 15px;
+  cursor: pointer;
+  transition: 0.4s all ease-in-out;
+}
+.card:hover{
+  transform: translate(-1%, -1%);
+}
+.card-img{
+  width: 150px;
+  height: 252px;
+  margin: 0 10px 0 10px;
+  overflow: hidden;
+}
+.card-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.card-text{
+  margin: 0 10px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.product-name{
+  font-size: 1.35em;
+}
+/*#endregion*/

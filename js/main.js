@@ -1,6 +1,7 @@
 const dropdownButton = document.querySelector("#header-button");
 const deployableMenu = document.querySelector("#deployableMenu");
 const menuIcon = document.querySelector("#header-button i");
+const cards = document.querySelectorAll(".card");
 
 dropdownButton.addEventListener("click", () => {
     deployableMenu.classList.toggle("active");
@@ -13,4 +14,10 @@ window.addEventListener("scroll", () => {
         menuIcon.classList.toggle('fa-bars');
         menuIcon.classList.toggle('fa-x');
     }
+});
+
+cards.forEach(card => {
+    card.addEventListener("click", () => {
+        window.open('../pages/catalogo.html', '_blank');
+    });
 });
