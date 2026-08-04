@@ -2,7 +2,7 @@ const botones = document.querySelectorAll('.option');
 const indicador = document.querySelector('.indicator');
 let opcionElegida = document.querySelector('.option.active');
 const barraOpciones = document.querySelector('.options-bar');
-const contenedor = document.querySelector('.products-section');
+const contenedor = document.querySelector('.products-container');
 let productos = [];
 let botonActivo;
 
@@ -47,7 +47,7 @@ function llenarCartas(p) {
 
 async function cargarProductos() {
     try {
-        const respuesta = await fetch("../JSON/productos.json");
+        const respuesta = await fetch("./JSON/productos.json");
         productos = await respuesta.json();
         console.log("Productos cargados con éxito!");
         llenarCartas(productos.filter(p => p.categoria.includes("Acné")));
