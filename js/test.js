@@ -47,7 +47,7 @@ function llenarCartas(p) {
 
 async function cargarProductos() {
     try {
-        const respuesta = await fetch("./JSON/productos.json");
+        const respuesta = await fetch("JSON/productos.JSON");
         productos = await respuesta.json();
         console.log("Productos cargados con éxito!");
         llenarCartas(productos.filter(p => p.categoria.includes("Acné")));
