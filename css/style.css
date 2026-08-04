@@ -24,13 +24,11 @@
   background-color: #fff;
   min-height: 50dvh;
   width: 100dvw;
-  margin: 18dvh 15px 0;
-  overflow: hidden;
+  margin: 18dvh 15px 2dvh 15px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  padding-bottom: 30px;
 }
 
 .test-text {
@@ -61,22 +59,25 @@
 
 .options-bar{
   position: relative;
-  width: 100%;
-  height: 5dvh;
+  width: 95%;
+  max-width: 600px;
+  height: 50px;
   background: #200e2f;
+  border-radius: 10px;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  overflow-x: scroll;
-  justify-content: center;
+  overflow-x: auto;
+  justify-content: flex-start;
   align-items: center;
   scroll-snap-type: x mandatory;
+  padding: 5px 15px;
 }
 .option{
   scroll-snap-align: center;
   flex: 0 0 auto;
-  width: 30%;
-  height: 40px;
+  padding: 0 20px;
+  height: 100%;
   border: 0;
   background: transparent;
   color: #fff;
@@ -84,6 +85,7 @@
   font-size: 0.8em;
   cursor: pointer;
   z-index: 1;
+  white-space: nowrap;
 }
 .indicator{
   position: absolute;
@@ -112,18 +114,30 @@
 /*#endregion*/
 
 /*#region PRODUCTS SECTION*/
-.products-section {
-  width: 100dvw;
+.products-section{
   height: fit-content;
+  width: 100dvw;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.products-container {
+  width: 100%;
+  height: 100%;
   display: grid;
+  place-items: center;
   grid-auto-flow: row;
   grid-auto-rows: 1fr;
   place-items: center;
+  background-color: #fff;
 }
 
 .product {
   width: 85%;
-  min-height: 50dvh;
+  height: 100%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -132,6 +146,8 @@
   gap: 10px;
   border-radius: 25px;
   border: 2px solid #000;
+  animation: aparecer 0.4s ease-out forwards;
+  opacity: 0;
 }
 
 .product-img-container {
@@ -218,6 +234,17 @@
   align-items: center;
   text-decoration: none;
 }
+
+@keyframes aparecer{
+  from{
+    opacity: 0;
+    transform: translateX(-50%);
+  } to{
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
 /*#endregion*/
 
 /*#region HERO*/
