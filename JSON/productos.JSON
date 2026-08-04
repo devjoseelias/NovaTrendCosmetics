@@ -3,7 +3,7 @@
         "id" : "100",
         "nombre" : "Serum ácido hialurónico",
         "precio" : "$299.00",
-        "categoria" : ["Resequedad", "Signos de la edad", "Piel grasa", "Piel seca"],
+        "categoria" : ["Resequedad", "Signos de la edad", "Piel grasa", "Resequedad"],
         "imagen" : "../assets/Images/products/serum_acido_hialuronico.webp",
         "link" : "../pages/producto.html?id=100"
     },
@@ -22,7 +22,106 @@
         "nombre" : "Serum Vitacmina C",
         "precio" : "$149.00",
         "categoria" : ["Manchas", "Tonos irregulares", "Piel opaca"],
-        "imagen" : "../assets/Images/products/serum_niacinamida.webp",
+        "imagen" : "../assets/Images/products/serum_vitamina_c.webp",
         "link" : "../pages/producto.html?id=102"
+    },
+
+    {
+        "id" : "103",
+        "nombre" : "Serum Retinol",
+        "precio" : "$149.00",
+        "categoria" : ["Manchas", "Signos de la edad"],
+        "imagen" : "../assets/Images/products/serum_retinol.webp",
+        "link" : "../pages/producto.html?id=103"
+    },
+    
+    {
+        "id" : "104",
+        "nombre" : "Gel Limpiador Anti Acné",
+        "precio" : "$319.00",
+        "categoria" : ["Acné", "Piel grasa"],
+        "imagen" : "../assets/Images/products/gel_limpiador_anti_acne.webp",
+        "link" : "../pages/producto.html?id=104"
+    },
+
+    {
+        "id" : "105",
+        "nombre" : "Gel Cremoso Anti Acné",
+        "precio" : "$299.00",
+        "categoria" : ["Acné", "Piel grasa"],
+        "imagen" : "../assets/Images/products/gel_cremoso_anti_acne.webp",
+        "link" : "../pages/producto.html?id=105"
+    },
+
+    {
+        "id" : "106",
+        "nombre" : "Crema aclaradora de noche",
+        "precio" : "$429.00",
+        "categoria" : ["Manchas", "Tonos irregulares"],
+        "imagen" : "../assets/Images/products/crema_aclaradora_de_noche.webp",
+        "link" : "../pages/producto.html?id=106"
+    },
+
+    {
+        "id" : "107",
+        "nombre" : "Crema baba de caracol",
+        "precio" : "$499.00",
+        "categoria" : ["Resequedad", "Signos de la edad", "Piel opaca"],
+        "imagen" : "../assets/Images/products/crema_aclaradora_de_noche.webp",
+        "link" : "../pages/producto.html?id=107"
+    },
+
+    {
+        "id" : "108",
+        "nombre" : "Kit 3 serums",
+        "precio" : "$399.00",
+        "categoria" : "Todos",
+        "imagen" : "../assets/Images/products/kit_3_serums.webp",
+        "link" : "../pages/producto.html?id=108"
+    },
+
+    {
+        "id" : "109",
+        "nombre" : "Kit 4 serums",
+        "precio" : "$649.00",
+        "categoria" : "Todos",
+        "imagen" : "../assets/Images/products/kit_4_serums.webp",
+        "link" : "../pages/producto.html?id=109"
+    },
+
+    {
+        "id" : "110",
+        "nombre" : "Kit anti acné",
+        "precio" : "$579.00",
+        "categoria" : "Todos",
+        "imagen" : "../assets/Images/products/kit_anti_acne.webp",
+        "link" : "../pages/producto.html?id=110"
+    },
+
+    {
+        "id" : "111",
+        "nombre" : "Kit día y noche",
+        "precio" : "$879.00",
+        "categoria" : "Todos",
+        "imagen" : "../assets/Images/products/kit_dia_y_noche.webp",
+        "link" : "../pages/producto.html?id=111"
+    },
+
+    {
+        "id" : "112",
+        "nombre" : "Kit extra hidratación",
+        "precio" : "$739.00",
+        "categoria" : "Todos",
+        "imagen" : "../assets/Images/products/kit_extra_hidratacion.webp",
+        "link" : "../pages/producto.html?id=112"
+    },
+
+    {
+        "id" : "113",
+        "nombre" : "Kit rutina completa",
+        "precio" : "$1749.00",
+        "categoria" : "Todos",
+        "imagen" : "../assets/Images/products/kit_rutina_completa.webp",
+        "link" : "../pages/producto.html?id=113"
     }
 ]
