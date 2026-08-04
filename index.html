@@ -2,17 +2,16 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8"/>
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/menu.css" />
     <link rel="icon" type="image/webp" href="assets/Images/logo/Logotipo_Nova_Trend.webp" />
     <title>Nova Trend Cosmetics</title>
 </head>
 
 <body>
-
     <header class="header">
         <nav class="header-nav-bar">
             <div class="logo-container">
@@ -36,7 +35,7 @@
                     </a>
                 </li>
                 <li class="list-item">
-                    <a href="pages/test.html" class="nav-link">
+                    <a href="#test" class="nav-link">
                         <i class="fa-solid fa-file"></i>
                         <span class="nav-text">Test de skincare</span>
                     </a>
@@ -58,28 +57,39 @@
     </header>
 
     <main class="main" id="main">
-
         <section class="test" id="test">
             <div class="test-text">
-                <p class="question">
-                    ¿Cómo elegir?
-                </p>
+                <p class="question">¿Cómo elegir?</p>
                 <p class="text">
-                    ¡Deja que nuesta <span class="resalt">herramienta personalizada</span> te de recomendaciones!
+                    ¡Deja que nuesta
+                    <span class="resalt">herramienta personalizada</span> te de
+                    recomendaciones!
                 </p>
             </div>
-            <div class="test-button" id="test-button">
-                <a href="pages/test.html" class="skincare-test">¡Haz tu test gratis!</a>
+            <div class="options-bar">
+                <button class="option activa" value="Acné">Acné</button>
+                <button class="option" value="Resequedad">Resequedad</button>
+                <button class="option" value="Manchas">Manchas</button>
+                <button class="option" value="Tonos irregulares">
+                    Tonos irregulares
+                </button>
+                <button class="option" value="Signos de la edad">
+                    Signos de la edad
+                </button>
+                <button class="option" value="Piel grasa">Piel grasa</button>
+                <button class="option" value="Piel opaca">Piel opaca</button>
             </div>
         </section>
 
-        <section class="hero" id="hero">
-                <picture class="hero-image" id="hero-image">
-                    <source media="(min-width: 992px)" srcset="assets/Images/hero_section/hero_escritorio.webp">
-                    <source media="(min-width: 768px)" srcset="assets/Images/hero_section/hero_tablet.webp">
-                    <img src="assets/Images/hero_section/hero_celular.webp" alt="Kit personalizable de Nova Trend Cosmetics" class="first-image" id="first-image" loading="lazy"/>
-                </picture>
+        <div class="products-section"></div>
 
+        <section class="hero" id="hero">
+            <picture class="hero-image" id="hero-image">
+                <source media="(min-width: 992px)" srcset="assets/Images/hero_section/hero_escritorio.webp" />
+                <source media="(min-width: 768px)" srcset="assets/Images/hero_section/hero_tablet.webp" />
+                <img src="assets/Images/hero_section/hero_celular.webp" alt="Kit personalizable de Nova Trend Cosmetics"
+                    class="first-image" id="first-image" loading="lazy" />
+            </picture>
         </section>
 
         <section class="scroll-section" id="scroll-section">
@@ -87,7 +97,8 @@
             <div class="wrapper" id="wrapper">
                 <a href="pages/productos/kit_extra_hidratacion.html" class="card">
                     <div class="card-img">
-                        <img src="assets/Images/lat_scroll_bar_section/kit_extra_hidratacion_card.webp" alt="kit Extra Hidratación" loading="lazy">
+                        <img src="assets/Images/lat_scroll_bar_section/kit_extra_hidratacion_card.webp"
+                            alt="kit Extra Hidratación" loading="lazy" />
                     </div>
                     <div class="card-text">
                         <h3 class="product-name">Kit Hidratación+</h3>
@@ -96,7 +107,8 @@
                 </a>
                 <a href="pages/productos/kit_cinco_productos.html" class="card">
                     <div class="card-img">
-                        <img src="assets/Images/lat_scroll_bar_section/kit_5_productos_card.webp" alt="Kit Rutina Completa" loading="lazy">
+                        <img src="assets/Images/lat_scroll_bar_section/kit_5_productos_card.webp"
+                            alt="Kit Rutina Completa" loading="lazy" />
                     </div>
                     <div class="card-text">
                         <h3 class="product-name">Kit Rutina Completa</h3>
@@ -105,7 +117,8 @@
                 </a>
                 <a href="pages/productos/kit_anti_acne.html" class="card">
                     <div class="card-img">
-                        <img src="assets/Images/lat_scroll_bar_section/kit_anti_acne_card.webp" alt="Kit Anti Acné" loading="lazy">
+                        <img src="assets/Images/lat_scroll_bar_section/kit_anti_acne_card.webp" alt="Kit Anti Acné"
+                            loading="lazy" />
                     </div>
                     <div class="card-text">
                         <h3 class="product-name">Kit Anti Acné</h3>
@@ -114,7 +127,8 @@
                 </a>
                 <a href="pages/productos/kit_dia_y_noche.html" class="card">
                     <div class="card-img">
-                        <img src="assets/Images/lat_scroll_bar_section/kit_dia_y_noche_card.webp" alt="Kit Día Y Noche" loading="lazy">
+                        <img src="assets/Images/lat_scroll_bar_section/kit_dia_y_noche_card.webp" alt="Kit Día Y Noche"
+                            loading="lazy" />
                     </div>
                     <div class="card-text">
                         <h3 class="product-name">Kit Día y Noche</h3>
@@ -123,7 +137,8 @@
                 </a>
                 <a href="pages/productos/kit_cuatro_serums.html" class="card">
                     <div class="card-img">
-                        <img src="assets/Images/lat_scroll_bar_section/4_serums_card.webp" alt="Kit 4 Serums" loading="lazy">
+                        <img src="assets/Images/lat_scroll_bar_section/4_serums_card.webp" alt="Kit 4 Serums"
+                            loading="lazy" />
                     </div>
                     <div class="card-text">
                         <h3 class="product-name">Kit 4 Serums Premium</h3>
@@ -141,10 +156,15 @@
         <section class="social-media" id="social-media">
             <h2 class="media-title">Nuestras redes</h2>
             <div class="icons-container">
-                <a href="https://www.tiktok.com/@novatrendcosmetics?_r=1&_t=ZS-98YhULm5z3l" target="_blank"> <i class="fa-brands fa-tiktok"></i></a>
-                <a href="https://www.instagram.com/novatrendcosmetics?igsh=MWhpZHVnN2sxd3Z1Ng==" target="_blank"> <i class="fa-brands fa-instagram"></i></a>
-                <a href="https://www.facebook.com/share/1Av6PfBkRL/?mibextid=wwXIfr" target="_blank"> <i class="fa-brands fa-facebook"></i></a>
-                <a href="https://wa.me/3329629631?text=¡Hola!%20Estoy%20interesado%20en%20un%20producto." target="_blank"> <i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.tiktok.com/@novatrendcosmetics?_r=1&_t=ZS-98YhULm5z3l" target="_blank">
+                    <i class="fa-brands fa-tiktok"></i></a>
+                <a href="https://www.instagram.com/novatrendcosmetics?igsh=MWhpZHVnN2sxd3Z1Ng==" target="_blank">
+                    <i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/share/1Av6PfBkRL/?mibextid=wwXIfr" target="_blank">
+                    <i class="fa-brands fa-facebook"></i></a>
+                <a href="https://wa.me/3329629631?text=¡Hola!%20Estoy%20interesado%20en%20un%20producto."
+                    target="_blank">
+                    <i class="fa-brands fa-whatsapp"></i></a>
             </div>
         </section>
 
@@ -153,11 +173,12 @@
             <div class="container">
                 <form action="" method="post" class="form">
                     <label for="nombre">Nombre completo:</label>
-                    <input type="text" name="nombre" placeholder="Ej: Juan Pérez Reynosa" id="nombre" required>
+                    <input type="text" name="nombre" placeholder="Ej: Juan Pérez Reynosa" id="nombre" required />
                     <label for="mail">Correo electrónico:</label>
-                    <input type="email" name="mail" placeholder="Ej: ejemplo@correo.com" id="mail" required>
+                    <input type="email" name="mail" placeholder="Ej: ejemplo@correo.com" id="mail" required />
                     <label for="message">Mensaje:</label>
-                    <textarea name="message" placeholder="¡Escribe aquí tus dudas, comentarios o sugerencias!" id="message" required></textarea>
+                    <textarea name="message" placeholder="¡Escribe aquí tus dudas, comentarios o sugerencias!"
+                        id="message" required></textarea>
                     <button type="submit">¡Enviar formulario!</button>
                 </form>
             </div>
@@ -166,16 +187,22 @@
         <footer class="footer" id="footer">
             <ul class="footer-data">
                 <li class="footer-data-element">&copy; Nova Trend Cosmetics, 2026</li>
-                <li class="footer-data-element"><a href="pages/terminos.html" class="footer-link">Términos y condiciones</a></li>
-                <li class="footer-data-element"><a href="pages/avisoprivacidad.html" class="footer-link">Aviso de privacidad</a></li>
-                <li class="footer-data-element"><a href="#contacto" class="footer-link">Contacto</a></li>
+                <li class="footer-data-element">
+                    <a href="pages/terminos.html" class="footer-link">Términos y condiciones</a>
+                </li>
+                <li class="footer-data-element">
+                    <a href="pages/avisoprivacidad.html" class="footer-link">Aviso de privacidad</a>
+                </li>
+                <li class="footer-data-element">
+                    <a href="#contacto" class="footer-link">Contacto</a>
+                </li>
                 <li class="footer-data-element">Desarrollado por José E.</li>
             </ul>
         </footer>
-
     </main>
 
     <script src="js/main.js"></script>
+    <script src="js/test.js"></script>
 </body>
 
 </html>

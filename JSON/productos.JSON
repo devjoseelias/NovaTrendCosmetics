@@ -1,0 +1,28 @@
+[
+    {
+        "id" : "100",
+        "nombre" : "Serum ácido hialurónico",
+        "precio" : "$299.00",
+        "categoria" : ["Resequedad", "Signos de la edad", "Piel grasa", "Piel seca"],
+        "imagen" : "../assets/Images/products/serum_acido_hialuronico.webp",
+        "link" : "../pages/producto.html?id=100"
+    },
+
+    {
+        "id" : "101",
+        "nombre" : "Serum Niacinamida",
+        "precio" : "$149.00",
+        "categoria" : ["Acné", "Resequedad", "Tonos irregulares", "Piel grasa"],
+        "imagen" : "../assets/Images/products/serum_niacinamida.webp",
+        "link" : "../pages/producto.html?id=101"
+    },
+
+    {
+        "id" : "102",
+        "nombre" : "Serum Vitacmina C",
+        "precio" : "$149.00",
+        "categoria" : ["Manchas", "Tonos irregulares", "Piel opaca"],
+        "imagen" : "../assets/Images/products/serum_niacinamida.webp",
+        "link" : "../pages/producto.html?id=102"
+    }
+]
