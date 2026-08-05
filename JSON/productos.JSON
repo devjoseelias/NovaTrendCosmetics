@@ -4,7 +4,7 @@
         "nombre" : "Serum ácido hialurónico",
         "precio" : "$299.00",
         "categoria" : ["Resequedad", "Signos de la edad", "Piel grasa", "Resequedad"],
-        "imagen" : "../assets/Images/products/serum_acido_hialuronico.webp",
+        "imagen" : "assets/Images/products/serum_acido_hialuronico.webp",
         "link" : "../pages/producto.html?id=100",
         "descripcion" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, repellat? Sed quisquam, harum dolor, voluptatem facilis recusandae, voluptatibus consectetur dicta possimus illo quidem ad! Officia consectetur corrupti explicabo cum nihil."
     },
@@ -14,7 +14,7 @@
         "nombre" : "Serum Niacinamida",
         "precio" : "$149.00",
         "categoria" : ["Acné", "Resequedad", "Tonos irregulares", "Piel grasa"],
-        "imagen" : "../assets/Images/products/serum_niacinamida.webp",
+        "imagen" : "assets/Images/products/serum_niacinamida.webp",
         "link" : "../pages/producto.html?id=101",
         "descripcion" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, repellat? Sed quisquam, harum dolor, voluptatem facilis recusandae, voluptatibus consectetur dicta possimus illo quidem ad! Officia consectetur corrupti explicabo cum nihil."
     },
@@ -24,7 +24,7 @@
         "nombre" : "Serum Vitacmina C",
         "precio" : "$149.00",
         "categoria" : ["Manchas", "Tonos irregulares", "Piel opaca"],
-        "imagen" : "../assets/Images/products/serum_vitamina_c.webp",
+        "imagen" : "assets/Images/products/serum_vitamina_c.webp",
         "link" : "../pages/producto.html?id=102",
         "descripcion" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, repellat? Sed quisquam, harum dolor, voluptatem facilis recusandae, voluptatibus consectetur dicta possimus illo quidem ad! Officia consectetur corrupti explicabo cum nihil."
     },
@@ -34,7 +34,7 @@
         "nombre" : "Serum Retinol",
         "precio" : "$149.00",
         "categoria" : ["Manchas", "Signos de la edad"],
-        "imagen" : "../assets/Images/products/serum_retinol.webp",
+        "imagen" : "assets/Images/products/serum_retinol.webp",
         "link" : "../pages/producto.html?id=103",
         "descripcion" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, repellat? Sed quisquam, harum dolor, voluptatem facilis recusandae, voluptatibus consectetur dicta possimus illo quidem ad! Officia consectetur corrupti explicabo cum nihil."
     },
@@ -44,7 +44,7 @@
         "nombre" : "Gel Limpiador Anti Acné",
         "precio" : "$319.00",
         "categoria" : ["Acné", "Piel grasa"],
-        "imagen" : "../assets/Images/products/gel_limpiador_anti_acne.webp",
+        "imagen" : "assets/Images/products/gel_limpiador_anti_acne.webp",
         "link" : "../pages/producto.html?id=104",
         "descripcion" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, repellat? Sed quisquam, harum dolor, voluptatem facilis recusandae, voluptatibus consectetur dicta possimus illo quidem ad! Officia consectetur corrupti explicabo cum nihil."
     },
@@ -54,7 +54,7 @@
         "nombre" : "Gel Cremoso Anti Acné",
         "precio" : "$299.00",
         "categoria" : ["Acné", "Piel grasa"],
-        "imagen" : "../assets/Images/products/gel_cremoso_anti_acne.webp",
+        "imagen" : "assets/Images/products/gel_cremoso_anti_acne.webp",
         "link" : "../pages/producto.html?id=105",
         "descripcion" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, repellat? Sed quisquam, harum dolor, voluptatem facilis recusandae, voluptatibus consectetur dicta possimus illo quidem ad! Officia consectetur corrupti explicabo cum nihil."
     },
@@ -64,7 +64,7 @@
         "nombre" : "Crema aclaradora de noche",
         "precio" : "$429.00",
         "categoria" : ["Manchas", "Tonos irregulares"],
-        "imagen" : "../assets/Images/products/crema_aclaradora_de_noche.webp",
+        "imagen" : "assets/Images/products/crema_aclaradora_de_noche.webp",
         "link" : "../pages/producto.html?id=106",
         "descripcion" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, repellat? Sed quisquam, harum dolor, voluptatem facilis recusandae, voluptatibus consectetur dicta possimus illo quidem ad! Officia consectetur corrupti explicabo cum nihil."
     },
@@ -74,7 +74,7 @@
         "nombre" : "Crema baba de caracol",
         "precio" : "$499.00",
         "categoria" : ["Resequedad", "Signos de la edad", "Piel opaca"],
-        "imagen" : "../assets/Images/products/crema_aclaradora_de_noche.webp",
+        "imagen" : "assets/Images/products/crema_aclaradora_de_noche.webp",
         "link" : "../pages/producto.html?id=107",
         "descripcion" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, repellat? Sed quisquam, harum dolor, voluptatem facilis recusandae, voluptatibus consectetur dicta possimus illo quidem ad! Officia consectetur corrupti explicabo cum nihil."
     },
@@ -84,7 +84,7 @@
         "nombre" : "Kit 3 serums",
         "precio" : "$399.00",
         "categoria" : "Todos",
-        "imagen" : "../assets/Images/products/kit_3_serums.webp",
+        "imagen" : "assets/Images/products/kit_3_serums.webp",
         "link" : "../pages/producto.html?id=108",
         "descripcion" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, repellat? Sed quisquam, harum dolor, voluptatem facilis recusandae, voluptatibus consectetur dicta possimus illo quidem ad! Officia consectetur corrupti explicabo cum nihil."
     },
@@ -94,7 +94,7 @@
         "nombre" : "Kit 4 serums",
         "precio" : "$649.00",
         "categoria" : "Todos",
-        "imagen" : "../assets/Images/products/kit_4_serums.webp",
+        "imagen" : "assets/Images/products/kit_4_serums.webp",
         "link" : "../pages/producto.html?id=109",
         "descripcion" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, repellat? Sed quisquam, harum dolor, voluptatem facilis recusandae, voluptatibus consectetur dicta possimus illo quidem ad! Officia consectetur corrupti explicabo cum nihil."
     },
@@ -104,7 +104,7 @@
         "nombre" : "Kit anti acné",
         "precio" : "$579.00",
         "categoria" : "Todos",
-        "imagen" : "../assets/Images/products/kit_anti_acne.webp",
+        "imagen" : "assets/Images/products/kit_anti_acne.webp",
         "link" : "../pages/producto.html?id=110",
         "descripcion" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, repellat? Sed quisquam, harum dolor, voluptatem facilis recusandae, voluptatibus consectetur dicta possimus illo quidem ad! Officia consectetur corrupti explicabo cum nihil."
     },
@@ -114,7 +114,7 @@
         "nombre" : "Kit día y noche",
         "precio" : "$879.00",
         "categoria" : "Todos",
-        "imagen" : "../assets/Images/products/kit_dia_y_noche.webp",
+        "imagen" : "assets/Images/products/kit_dia_y_noche.webp",
         "link" : "../pages/producto.html?id=111",
         "descripcion" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, repellat? Sed quisquam, harum dolor, voluptatem facilis recusandae, voluptatibus consectetur dicta possimus illo quidem ad! Officia consectetur corrupti explicabo cum nihil."
     },
@@ -124,7 +124,7 @@
         "nombre" : "Kit extra hidratación",
         "precio" : "$739.00",
         "categoria" : "Todos",
-        "imagen" : "../assets/Images/products/kit_extra_hidratacion.webp",
+        "imagen" : "assets/Images/products/kit_extra_hidratacion.webp",
         "link" : "../pages/producto.html?id=112",
         "descripcion" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, repellat? Sed quisquam, harum dolor, voluptatem facilis recusandae, voluptatibus consectetur dicta possimus illo quidem ad! Officia consectetur corrupti explicabo cum nihil."
     },
@@ -134,7 +134,7 @@
         "nombre" : "Kit rutina completa",
         "precio" : "$1749.00",
         "categoria" : "Todos",
-        "imagen" : "../assets/Images/products/kit_rutina_completa.webp",
+        "imagen" : "assets/Images/products/kit_rutina_completa.webp",
         "link" : "../pages/producto.html?id=113",
         "descripcion" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, repellat? Sed quisquam, harum dolor, voluptatem facilis recusandae, voluptatibus consectetur dicta possimus illo quidem ad! Officia consectetur corrupti explicabo cum nihil."
     }
