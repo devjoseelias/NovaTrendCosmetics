@@ -6,7 +6,8 @@
         "categoria" : ["Resequedad", "Signos de la edad", "Piel grasa", "Resequedad"],
         "imagen" : "assets/Images/products/serum_acido_hialuronico.webp",
         "link" : "../pages/producto.html?id=100",
-        "descripcion" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, repellat? Sed quisquam, harum dolor, voluptatem facilis recusandae, voluptatibus consectetur dicta possimus illo quidem ad! Officia consectetur corrupti explicabo cum nihil."
+        "descripcion" : "Serum Ácido Hialurónico 1.5%, hidratante y humectante, reduce imperfecciones y marcas de la edad, flexibiliza la piel y fortalecen el tejido, aporta Colágeno y vitaminas.",
+        "descripcion-larga" : "NOVA TREND COSMETICS Serum Ácido Hialurónico 1.5%, a base de Tepezcohuite, Sábila, Ácido Hialurónico, Caviar, Elastina, Colágeno y Caléndula, es un excelente hidratante y humectante, por su efecto reductor de imperfecciones y marcas de la edad, además de aportar Colágeno y vitaminas, que flexibilizan la piel y fortalecen el tejido, en frasco gotero de 30mL."
     },
 
     {
@@ -16,7 +17,8 @@
         "categoria" : ["Acné", "Resequedad", "Tonos irregulares", "Piel grasa"],
         "imagen" : "assets/Images/products/serum_niacinamida.webp",
         "link" : "../pages/producto.html?id=101",
-        "descripcion" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, repellat? Sed quisquam, harum dolor, voluptatem facilis recusandae, voluptatibus consectetur dicta possimus illo quidem ad! Officia consectetur corrupti explicabo cum nihil."
+        "descripcion" : "Serum Niacinamida 5% suaviza, mejora el tono y textura de la piel, hidrata, refuerza la barrera cutánea, antiinflamatoria, corrige manchas y auxiliar en dermatitis atópica .",
+        "descripcion-larga" : "NOVA TREND COSMETICS Serum Niacinamida 5% a base de Niacinamida (Vitamina B 3) 5%, Vitamina E 1%, es un suavizante natural de la piel que se sugiere aplicar una cantidad con los dedos en la zona elegida y distribuir la crema uniformemente con la yema de los dedos con un masaje suave, usarlo por la noche antes de acostarse, aplicando sobre la piel limpia y seca de cara, cuello y/o escote, después de la limpieza facial en frasco gotero de 30mL."
     },
 
     {
@@ -26,7 +28,8 @@
         "categoria" : ["Manchas", "Tonos irregulares", "Piel opaca"],
         "imagen" : "assets/Images/products/serum_vitamina_c.webp",
         "link" : "../pages/producto.html?id=102",
-        "descripcion" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, repellat? Sed quisquam, harum dolor, voluptatem facilis recusandae, voluptatibus consectetur dicta possimus illo quidem ad! Officia consectetur corrupti explicabo cum nihil."
+        "descripcion" : "Serum Vitamina C, desmancha, aclara, es antioxidante, ilumina, protege, unifica el tono y estimula la producción de colágeno, mejorando la salud y apariencia de la piel.",
+        "descripcion-larga" : "NOVA TREND COSMETICS Serum Vitamina C 5% a base de Vitamina C 5%, Vitamina E 1%, es un desmanchante y aclarador natural de la piel que se sugiere aplicar una cantidad con los dedos en la zona elegida y distribuir la crema uniformemente con la yema de los dedos con un masaje suave, usarlo por la noche antes de acostarse, aplicando sobre la piel limpia y seca de cara, cuello y/o escote, después de la limpieza facial en frasco gotero de 30mL."
     },
 
     {
@@ -36,7 +39,8 @@
         "categoria" : ["Manchas", "Signos de la edad"],
         "imagen" : "assets/Images/products/serum_retinol.webp",
         "link" : "../pages/producto.html?id=103",
-        "descripcion" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, repellat? Sed quisquam, harum dolor, voluptatem facilis recusandae, voluptatibus consectetur dicta possimus illo quidem ad! Officia consectetur corrupti explicabo cum nihil."
+        "descripcion" : "Serum Retinol, anti-arrugas, mejora la textura, firmeza y luminosidad de la piel, reduce arrugas, manchas y acné, y estimula la producción de colágeno.",
+        "descripcion-larga" : "NOVA TREND COSMETICS Serum Retinol 0.1% a base de Retinol (Ácido Retinóico) 0.1%, Vitamina E 1%, es un efectivo agente antiarrugas de la piel que se sugiere aplicar una cantidad con los dedos en la zona elegida y distribuir la crema uniformemente con la yema de los dedos con un masaje suave, usarlo por la noche antes de acostarse, aplicando sobre la piel limpia y seca de cara, cuello y/o escote, después de la limpieza facial en frasco gotero de 30mL."
     },
     
     {
@@ -46,7 +50,8 @@
         "categoria" : ["Acné", "Piel grasa"],
         "imagen" : "assets/Images/products/gel_limpiador_anti_acne.webp",
         "link" : "../pages/producto.html?id=104",
-        "descripcion" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, repellat? Sed quisquam, harum dolor, voluptatem facilis recusandae, voluptatibus consectetur dicta possimus illo quidem ad! Officia consectetur corrupti explicabo cum nihil."
+        "descripcion" : "Gel Limpiador Anti-acné limpiador facial, astringente, anti-bacterial, anti-inflamatorio, fungicida y antiséptico, que aporta vitaminas y Colágeno.",
+        "descripcion-larga" : "NOVA TREND COSMETICS Gel Limpiador Anti Acné a base de Hamamelis, Toronja, Sábila, Caléndula, Tepezcohuite, Echinácea, Caviar y Zn Pca, es un excelente apoyo en mitigar los efectos del Acné, por ser un eficiente limpiador facial, astringente, anti-bacterial, anti-inflamatorio, fungicida y antiséptico además de que aporta vitaminas y Colágeno, en frasco con dispensador de 80g."
     },
 
     {
@@ -56,7 +61,8 @@
         "categoria" : ["Acné", "Piel grasa"],
         "imagen" : "assets/Images/products/gel_cremoso_anti_acne.webp",
         "link" : "../pages/producto.html?id=105",
-        "descripcion" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, repellat? Sed quisquam, harum dolor, voluptatem facilis recusandae, voluptatibus consectetur dicta possimus illo quidem ad! Officia consectetur corrupti explicabo cum nihil."
+        "descripcion" : "Gel Cremoso Anti-acné astringente, anti-bacterial, anti-inflamatorio, fungicida y antiséptico de largo efecto, además de que aporta vitaminas y Colágeno.",
+        "descripcion-larga" : "NOVA TREND COSMETICS Gel Cremoso Anti Acné a base de Hamamelis, Toronja, Sábila, Caléndula, Tepezcohuite, Echinácea, Caviar y Zn Pca, es un excelente apoyo en mitigar los efectos del Acné, por ser un eficiente astringente, anti-bacterial, anti-inflamatorio, fungicida y antiséptico además de que aporta vitaminas y Colágeno, en frasco con dispensador de 40g."
     },
 
     {
@@ -66,7 +72,8 @@
         "categoria" : ["Manchas", "Tonos irregulares"],
         "imagen" : "assets/Images/products/crema_aclaradora_de_noche.webp",
         "link" : "../pages/producto.html?id=106",
-        "descripcion" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, repellat? Sed quisquam, harum dolor, voluptatem facilis recusandae, voluptatibus consectetur dicta possimus illo quidem ad! Officia consectetur corrupti explicabo cum nihil."
+        "descripcion" : "Crema Aclaradora de Noche, aclara, desmancha, unifica el tono de la piel, reduce irregularidades y signos de la edad.",
+        "descripcion-larga" : "NOVA TREND COSMETICS Crema Aclaradora de Noche, a base de Ceramidas, oleo solubles, Alfa Arbutina, Dipalmitato Kojico, Cetonas de Frambuesa, es un excelente auxiliar en aclarar, desmanchar, unificar el tono natural de la piel, reducir irregularidades y signos de la edad, presentada en tarro con 30g."
     },
 
     {
@@ -76,7 +83,8 @@
         "categoria" : ["Resequedad", "Signos de la edad", "Piel opaca"],
         "imagen" : "assets/Images/products/crema_aclaradora_de_noche.webp",
         "link" : "../pages/producto.html?id=107",
-        "descripcion" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, repellat? Sed quisquam, harum dolor, voluptatem facilis recusandae, voluptatibus consectetur dicta possimus illo quidem ad! Officia consectetur corrupti explicabo cum nihil."
+        "descripcion" : "Crema de día, humectante y reconstituyente  anti-envejecimiento, anti-estrías, regenerador de la piel, corrige imperfecciones, aporta colágeno y vitaminas.",
+        "descripcion-larga" : "NOVA TREND COSMETICS Crema de día, humectante y reconstituyente a base de Baba de Caracol, Alfa Arbutina, Dipalmitato Kojico, Sábila, Tepezcohuite, Caléndula, Pepino, Mirra, Caviar, Aceite de Coco, Elastina, Colágeno, Oro Coloidal, Ácido Hialurónico, que es un potente auxiliar como antienvejecimiento, anti-estrías, regenerador de la piel, que aporta colágeno y vitaminas y corrige imperfecciones, en tarro con 30g."
     },
 
     {
@@ -86,7 +94,8 @@
         "categoria" : "Todos",
         "imagen" : "assets/Images/products/kit_3_serums.webp",
         "link" : "../pages/producto.html?id=108",
-        "descripcion" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, repellat? Sed quisquam, harum dolor, voluptatem facilis recusandae, voluptatibus consectetur dicta possimus illo quidem ad! Officia consectetur corrupti explicabo cum nihil."
+        "descripcion" : "",
+        "descripcion-larga" : ""
     },
 
     {
@@ -96,7 +105,8 @@
         "categoria" : "Todos",
         "imagen" : "assets/Images/products/kit_4_serums.webp",
         "link" : "../pages/producto.html?id=109",
-        "descripcion" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, repellat? Sed quisquam, harum dolor, voluptatem facilis recusandae, voluptatibus consectetur dicta possimus illo quidem ad! Officia consectetur corrupti explicabo cum nihil."
+        "descripcion" : "",
+        "descripcion-larga" : ""
     },
 
     {
@@ -106,7 +116,8 @@
         "categoria" : "Todos",
         "imagen" : "assets/Images/products/kit_anti_acne.webp",
         "link" : "../pages/producto.html?id=110",
-        "descripcion" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, repellat? Sed quisquam, harum dolor, voluptatem facilis recusandae, voluptatibus consectetur dicta possimus illo quidem ad! Officia consectetur corrupti explicabo cum nihil."
+        "descripcion" : "",
+        "descripcion-larga" : ""
     },
 
     {
@@ -116,7 +127,8 @@
         "categoria" : "Todos",
         "imagen" : "assets/Images/products/kit_dia_y_noche.webp",
         "link" : "../pages/producto.html?id=111",
-        "descripcion" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, repellat? Sed quisquam, harum dolor, voluptatem facilis recusandae, voluptatibus consectetur dicta possimus illo quidem ad! Officia consectetur corrupti explicabo cum nihil."
+        "descripcion" : "",
+        "descripcion-larga" : ""
     },
 
     {
@@ -126,7 +138,8 @@
         "categoria" : "Todos",
         "imagen" : "assets/Images/products/kit_extra_hidratacion.webp",
         "link" : "../pages/producto.html?id=112",
-        "descripcion" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, repellat? Sed quisquam, harum dolor, voluptatem facilis recusandae, voluptatibus consectetur dicta possimus illo quidem ad! Officia consectetur corrupti explicabo cum nihil."
+        "descripcion" : "",
+        "descripcion-larga" : ""
     },
 
     {
@@ -136,6 +149,7 @@
         "categoria" : "Todos",
         "imagen" : "assets/Images/products/kit_rutina_completa.webp",
         "link" : "../pages/producto.html?id=113",
-        "descripcion" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, repellat? Sed quisquam, harum dolor, voluptatem facilis recusandae, voluptatibus consectetur dicta possimus illo quidem ad! Officia consectetur corrupti explicabo cum nihil."
+        "descripcion" : "",
+        "descripcion-larga" : ""
     }
 ]
