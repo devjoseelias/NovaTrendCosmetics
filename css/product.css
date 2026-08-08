@@ -22,8 +22,9 @@ main{
     width: 100%;
     height: 5dvh;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap: 10px;
 }
 .producto{
     background-color: #fff;
@@ -117,15 +118,33 @@ main{
     width: 100%;
 }
 .btn-1, .btn-2{
+    position: relative;
     height: 100%;
-    width: 45%;
+    width: 40%;
     background: transparent;
     border-radius: 20px;
-    transition: 0.4s all ease-in-out;
     cursor: pointer;
+    z-index: 1;
+    overflow: hidden;
 }
-.btn-1:hover, .btn-2:hover{
-    background: #000;
+.btn-1::before, .btn-2::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background-color: #bfbfbf;
+    z-index: -1;
+    transition: 0.8s;
+    border-radius: 20px;
+}
+.btn-1:not(.disabled):hover::before, .btn-2:not(.disabled):hover::before{
+    width: 100%;
+}
+.btn-1.disabled, .btn-2.disabled{
+    cursor: not-allowed;
+    background-color: #444;
     color: #fff;
 }
 

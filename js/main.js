@@ -14,4 +14,3 @@ window.addEventListener("scroll", () => {
         menuIcon.classList.toggle('fa-x');
     }
 });
-

@@ -1,5 +1,33 @@
+import { btnProductoAnterior as btnPrev } from "./elementos.js";
+import { btnProductoSiguiente as btnNext } from "./elementos.js";
+import { cargarElementos } from "./api.js";
+import {  actualizarBotonesCambio, actualizarProductoEnPantalla } from  './ui.js';
+
+const productos = await cargarElementos();
+
+let indiceActual = 0;
+let productoActual = productos[indiceActual];
+
+btnPrev.addEventListener('click', () =>{
+    if(indiceActual > 0){
+        indiceActual--;
+        productoActual = productos[indiceActual];
+        actualizarBotonesCambio(indiceActual, productos.length);
+        actualizarProductoEnPantalla(productoActual);
+    }
+});
+btnNext.addEventListener('click', () =>{
+    if(indiceActual < productos.length - 1){
+        indiceActual++;
+        productoActual = productos[indiceActual];
+        actualizarBotonesCambio(indiceActual, productos.length);
+        actualizarProductoEnPantalla(productoActual);
+    }
+});
+
 /*
-            <h2 class="nombre-producto">Crema aclaradora de noche</h2>
+            <article class="producto">
+                <h2 class="nombre-producto">Crema aclaradora de noche</h2>
             <div class="contenedor-info">
                 <div class="contenedor-imagen">
                     <img src="../assets/Images/products/crema_aclaradora_de_noche.webp" alt="" />
@@ -16,4 +44,5 @@
                     </button>
                 </div>
             </div>
+            </article>
 */
